@@ -1,0 +1,212 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>
+        My Services
+    </title>
+</head>
+<style>
+
+ /*   #menu {
+        position:fixed ;
+        width: 30vw;
+        height: 100vh;
+        background-color: yellowgreen;
+        opacity: 70%;
+    }
+        #menu-heading {
+            text-align: end;
+            font: status-bar;
+            font-size: 10vw;
+        }
+        #back-to-index >label {
+            display: block;
+            text-align: center;
+        }
+
+        #back-to-index {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items:center;
+            background-color: red;
+            display: block;
+            text-align: center;
+            ;
+        }
+
+        #description {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    position: relative;
+    margin: 10vw;
+  }
+  
+    #Home {
+        background-color: lawngreen;
+        text-align: center;
+        display: block;
+        margin-top: 2vh;
+        height: 10vh;
+    }*/
+
+  @keyframes rainbow {
+    0% {
+      color: transparent;
+      top: 0px;
+      left: 100vw;
+    
+    }
+    
+    100% {
+      
+      top: 0px;
+      left: 0px;
+    
+    }}
+    
+            
+    body {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+h1 { font-family: Work Sans ;
+    font-size: 3vw;
+}
+p { font-family: Work Sans, arial;
+    
+    font-size: 2.5vw;
+}
+
+
+::-webkit-scrollbar {  
+    
+    display: none;
+
+}
+
+    .sectioning {
+                width: 100vw;
+                height: 100vh;
+    }
+ .descript {
+     font-size: 3vw;
+     color: #00FFFF
+     ;
+     font-weight: lighter;
+     
+ }
+ @media (max-width : 1000PX) {
+    .descript{font-size:xx-large;
+            margin: 10vw;}
+    text
+}
+
+    #welcome {
+                background-color: #9D00FF;
+            ;
+    }
+
+    #heading {  font-family: 'Work sans', sans-serif;
+                text-align: center;
+                font-size: 8vw;
+                color: #00FFFF;
+
+    }
+    /*---------lower section-----------*/
+    #tile { 
+        ;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 5vw;
+        
+    }
+    
+
+#tile:hover {
+    background-color: snow;
+}
+    #pricing {  display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                text-align: center;
+                background: aqua;
+                border-radius:/*edit*/;
+                /* |upper| at media animate from 50% to normal*/
+    }
+    #offers {
+        font-size: 8vw;
+        font-family: Work sans;
+        color: #9D00FF ;
+    }
+
+
+
+    .tile1 {
+            background-color:sandybrown;
+        width: inherit;
+            }
+    .tile2 {
+        background-color:seagreen;
+    }
+    .tile3 {
+            background-color: tomato;
+    }
+    #sts { width: inherit;
+        image-rendering: optimizeQuality;
+        
+        margin-top: 50px;
+
+        
+    }
+    #bord {
+        background-color: black;
+        display: block;
+        height: 1vh;
+    }
+    #price-plate {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+</style>
+
+<html>
+    <body>
+      
+     
+    <section id="welcome" class="sectioning">
+        <header id="heading">
+            My Services.
+        </header>
+        <div id="description" class="rect">
+        <p class="descript" >
+        <i>"Here at Hluma Web control, we pride ourselves in empowering African businesses in order to keep up with an ever changing world.
+        Thats why we offer Web services to our clients at the lowest price possible. While maintaining tip-top quality with our unique designs."</i>
+      </p>
+      <p class="descript">  - Hluma-Nande Mhlaba (CEO)</p>
+        </div>
+    </section>
+
+    <section id="pricing" class="sectioning">
+        <header id="offers">What we offer</header>
+        <div id="price-plate">        
+        <nav id= "tile" class="tile1"> <div class="img"><h1>Website Designs</h1><div id="bord"></div>
+            <p>Make your website fun and visually striking with our unique designs</p>                                                                                                                    
+        </div></nav>
+        <nav id= "tile" class="tile2"> <div class="img"><h1>Website Hosting</h1><div id="bord"></div>
+            <p>Make your website go live with our hosting services at affordable rates</p>
+        </div></nav>
+        <nav id= "tile" class="tile3"> <div class="img"><h1>Website Deployment</h1><div id="bord"></div>
+            <p>We'll make your website for you from scratch with our low subscription rate of R199 per month*</p>
+        </div></nav>
+        </div>
+    </section>
+    </body>
+
+</html>
